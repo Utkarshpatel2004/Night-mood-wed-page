@@ -1,0 +1,1107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --background-color: rgb(232, 237,242);
+    --section-color:#fff;
+    --font-color:rgb(78,78,78);
+}
+
+.dark-mode {
+
+    --background-color: #1e1e1e;
+    --section-color:#393E46;
+    --font-color:gainsboro;
+    color: white;
+}
+
+.main{
+    background-color: var(--background-color);
+    display: grid;
+    grid-template-columns: 20% 78%;
+    grid-template-rows:100vh;
+    gap: 1%;
+
+}
+
+.sidebar{
+    background-color: var(--section-color);
+    height: 100vh;
+}
+
+.socially{
+    width: 70%;
+    height: 7%;
+    margin-left: 10%;
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 3%;
+}
+
+.bi-browser-firefox{
+    color: rgb(86, 78, 247);
+}
+
+.home{
+    width: 70%;
+    height: 5%;
+    margin-left: 10%;
+    margin-top: 20%;
+    font-size: 1.5vw;
+    align-content: center;
+    padding-left: 10%;
+    background-color: rgb(223, 193,250);
+    border-radius: 10px;
+    /* text-align: center; */
+    font-family: "Montserrat", sans-serif;
+}
+
+li{
+    width: 70%;
+    height: 4%;
+    margin-top: 20%;
+    padding-left: 20%;
+    list-style: none;
+    font-size: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bi{
+    padding-right: 10%;
+}
+
+.home:hover{
+    color:white;
+    box-shadow: inset 0 -100px 0 0 blueviolet;
+}
+
+.home:active{
+    transform: scale(0.9);
+}
+
+.list{
+    width: 70%;
+    height: 14%;
+    margin-left: 10%;
+    margin-top: 30%;
+    background-color: rgb(226, 197, 254);
+    font-size: 1.2vw;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 10px;
+    align-content: center;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.content{
+   
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10vh 90vh;
+    gap: 10px;
+}
+
+.nav{
+    background-color: var(--section-color);
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.list1{
+    width: 40%;
+    height: 70%;
+    margin-left: 2%;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.explore{
+    width: 30%;
+    height: 100%;
+    background-color: blueviolet;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    align-content: center;
+    text-align: center;
+    color: white;
+     font-family: "Montserrat", sans-serif;
+}
+
+.community{
+    font-size: 1.5vw;
+    align-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.pages{
+    font-size: 1.5vw;
+    align-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.list2{
+    /* border: 2px solid black; */
+    width: 30%;
+    height: 76%;
+    
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search{
+    border: 1px solid gainsboro;
+    width: 40%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 2%;
+}
+
+.logo{
+    /* border: 2px solid black; */
+    width: 40%;
+    height: 100%; 
+    align-content: center;
+    padding-left: 3%;
+}
+
+.logo1{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 2vw; 
+    background-image: url("img1.jpg");
+    background-size: 100% 100%;
+}
+
+.box{
+    
+    width: 100%;
+    height: 98%;
+    display:grid;
+    grid-template-columns: 63% 35%;
+    grid-template-rows: 100%;
+    gap: 2%;
+
+}
+
+.box1{
+    
+    display: grid;
+    grid-template-columns:100%; 
+    grid-template-rows:20% 24% 33% 17%;
+    gap: 2%;
+
+}
+
+.a1{
+    gap: 2%;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-rows:82% 15%;
+    grid-template-areas: "img11 img12 img13 img14 img15 img16"
+                         "text11 text12 text13 text14 text15 text16";
+}
+
+.img11{
+    grid-area: img11;
+    border-radius:200px;
+    align-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: var(--section-color);
+}
+
+.img12{
+    grid-area: img12;
+    /* border-radius: 30px; */
+    border-radius: 200px;
+    background-image: url(img17.avif);
+    background-size: 100% 100%;
+}
+.img13{
+    grid-area: img13;
+    border-radius: 200px;
+    background-image: url(img17.avif);
+    background-size: 100% 100%;
+}
+.img14{
+    grid-area: img14;
+    border-radius: 200px;
+    background-image: url(img17.avif);
+    background-size: 100% 100%;
+}
+
+.img15{
+    grid-area: img15;
+    border-radius: 200px;
+    background-image: url(img17.avif);
+    background-size: 100% 100%;
+}
+.img16{
+    grid-area: img16;
+    border-radius: 200px;
+    background-image: url(img17.avif);
+    background-size: 100% 100%;
+}
+
+.text11{
+    grid-area: text11;
+    font-family: "Merriweather", serif;
+    font-size: 1vw;
+    align-content: center;
+    text-align: center;
+
+}
+.text12{
+    grid-area: text12;
+    font-family: "Merriweather", serif;
+    font-size: 1vw;
+    align-content: center;
+    text-align: center;
+
+}
+.text13{
+    grid-area: text13;
+    font-family: "Merriweather", serif;
+    font-size: 1vw;
+    align-content: center;
+    text-align: center;
+
+}
+.text14{
+    grid-area: text14;
+    font-family: "Merriweather", serif;
+    font-size: 1vw;
+    align-content: center;
+    text-align: center;
+
+}
+.text15{
+    grid-area: text15;
+    font-family: "Merriweather", serif;
+    font-size: 1vw;
+    align-content: center;
+    text-align: center;
+
+}
+.text16{
+    grid-area: text16;
+ 
+    font-family: "Merriweather", serif;
+    font-size: 1vw;
+    align-content: center;
+    text-align: center;
+
+}
+
+
+.a2{
+    background-color: var(--section-color);
+    border-radius: 20px;
+}
+
+.top{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.img{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 2vw;
+    background-image: url("img1.jpg");
+    background-size: 100% 100%;   
+}
+
+.nav1{
+    width: 90%;
+    height: 100%;
+    background-color: var(--background-color);
+    font-family: "Merriweather", serif;
+    font-size: 1.5vw;
+    border-radius: 10px;
+    padding-left: 2%;
+    align-content: center;  
+}
+
+.bottom{
+    width: 90%;
+    height: 20%;
+    margin-top: 8%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 40%;
+    height: 100%;
+    font-size: 1.8vw;
+    color: gainsboro;
+}
+
+.create{
+    width: 20%;
+    height: 100%;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5vw;
+    align-content: center;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.a3{
+    background-color: var(--section-color);
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 20% 40% 20% 10%;
+    justify-content: center;
+    border-radius: 20px;
+    padding-top: 2%;
+}
+
+.nav2{
+    align-content: center;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.a7{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    gap: 2%;
+}
+
+.img1{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-image: url(img20.jpg);
+    background-size: 100% 100%;
+}
+.name{
+    width: 60%;
+    height: 100%;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1vw;
+}
+
+.div{
+    width: 30%;
+    height: 100%;
+    font-size: 1.5vw;
+    align-content: center;
+    text-align: end;
+
+}
+
+.top1{
+    font-size: 1.5vw;
+    font-family: "Ubuntu", sans-serif;
+    align-content: center;
+}
+
+.likes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.likes1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.likes2{
+    width: 40%;
+    height: 100%;
+    font-size: 1.4vw;
+    font-family: "Ubuntu", sans-serif;
+    align-content: center;
+
+}
+
+.comments{
+    width: 50%;
+    height: 100%;
+    font-size: 1.4vw;
+    font-family: "Ubuntu", sans-serif;
+    align-content: center;
+
+}
+
+.share{
+    width: 30%;
+    height: 100%;
+    font-size: 1.5vw;
+    font-family: "Ubuntu", sans-serif;
+    align-content: center;
+    text-align: end;
+}
+
+
+.bottom2{
+    height: 180%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;  */
+    font-size: 1.5vw;
+}
+
+.a4{
+    background-color: var(--section-color);
+    border-radius: 20px;
+
+}
+
+.nav3{
+    width: 90%;
+    height: 50%;
+ 
+    margin-top: 2%;
+    margin-left:5% ;
+    align-content: center;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.a7{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    gap: 2%;
+}
+
+.img1{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.name{
+    width: 60%;
+    height: 100%;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1vw;
+}
+
+.div{
+    width: 30%;
+    height: 100%;
+    font-size: 1.5vw;
+    align-content: center;
+    text-align: end;
+
+}
+
+
+.box2{
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 53% 44%;
+    gap: 3%;
+   
+
+}
+
+.topbox{
+    background-color: var(--section-color);
+    
+}
+
+.contacts{
+    width:90%;
+    height: 12%;
+    border-bottom: 1px solid grey;
+    margin-left: 5%;
+    align-content: center;
+    font-size: 1.5vw;
+    /* font-family: "Edu QLD Hand", cursive; */
+     font-family: "Lobster", sans-serif;
+}
+
+.d1{
+    width:80%;
+    height: 12%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.img17{
+    width:35px;
+    height: 35px;
+    border-radius: 35px;
+    background-image: url(img17.avif);
+    background-size: 100% 100%;
+    align-content: center;
+}
+
+.text17{
+    width:70%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.5vw;
+     font-family: "Edu QLD Hand", cursive;
+
+}
+.d2{
+    width:80%;
+    height: 12%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img18{
+    width:35px;
+    height: 35px;   
+    border-radius: 35px;
+    background-image: url(img20.jpg);
+    background-size: 100% 100%;
+}
+
+.text18{
+    width:70%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.5vw;
+    font-family: "Edu QLD Hand", cursive;
+
+}
+
+.d3{
+    width:80%;
+    height: 12%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img19{
+    width:35px;
+    height: 35px;
+    border-radius: 35px;
+    background-image: url(img19.jpg);
+    background-size: 100% 100%;
+}
+
+.text19{
+    width:70%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.5vw;
+     font-family: "Edu QLD Hand", cursive;
+
+}
+.d4{
+    width:80%;
+    height: 12%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img20{
+    width:35px;
+    height: 35px;
+    border-radius: 35px;
+    background-image: url(img20.jpg);
+    background-size: 100% 100%;
+}
+
+.text20{
+    width:70%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.5vw;
+    font-family: "Edu QLD Hand", cursive;
+
+}
+.d5{
+    width:80%;
+    height: 12%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img21{
+    width:35px;
+    height: 35px;
+    border-radius: 35px;
+    background-image: url(img21.jpg);
+    background-size: 100% 100%;
+}
+
+.text21{
+    width:70%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.5vw;
+    font-family: "Edu QLD Hand", cursive; 
+
+}
+.d6{
+    width:80%;
+    height: 12%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img22{
+    width:35px;
+    height: 35px;
+    border-radius: 35px;
+    background-image: url(img22.jpg);
+    background-size: 100% 100%;
+}
+
+.text22{
+    width:70%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.5vw;
+    font-family: "Edu QLD Hand", cursive;
+
+}
+
+.view{
+    width:80%;
+    height: 8%;
+ 
+    margin-left: 5%;
+    align-content: center;
+    font-size: 1.5vw;
+    font-family: "Edu QLD Hand", cursive; 
+}
+
+
+.bottombox{
+    background-color: var(--section-color);
+}
+
+.d7{
+    width:80%;
+    height: 12%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.img23{
+    width:35px;
+    height: 35px;
+    border-radius: 35px;
+    background-image: url(img22.jpg);
+    background-size: 100% 100%;
+}
+
+.text23{
+    width:70%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.5vw;
+    font-family: "Edu QLD Hand", cursive;
+
+}
+
+.d8{
+    width:85%;
+    height: 12%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.img24{
+    width:35px;
+    height: 35px;
+    border-radius: 35px;
+    background-image: url(img20.jpg);
+    background-size: 100% 100%;
+}
+
+.text24{
+    width:75%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.5vw;
+    font-family: "Edu QLD Hand", cursive;
+
+}
+
+.d9{
+    width:80%;
+    height: 12%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.img25{
+    width:35px;
+    height: 35px;
+    border-radius: 35px;
+    background-image: url(img17.avif);
+    background-size: 100% 100%;
+}
+
+.text25{
+    width:70%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.5vw;
+    font-family: "Edu QLD Hand", cursive;
+
+}
+
+.d10{
+    width:80%;
+    height: 12%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.img26{
+    width:35px;
+    height: 35px;
+    border-radius: 35px;
+    background-image: url(img19.jpg);
+    background-size: 100% 100%;
+}
+
+.text26{
+    width:70%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.5vw;
+    font-family: "Edu QLD Hand", cursive;
+
+}
+
+.d11{
+    width:80%;
+    height: 12%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.img27{
+    width:35px;
+    height: 35px;
+    border-radius: 35px;
+    background-image: url(img21.jpg);
+    background-size: 100% 100%;
+}
+
+.text27{
+    width:70%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.5vw;
+    font-family: "Edu QLD Hand", cursive;
+
+}
+
+#toggle-btn {
+  font-size: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.bi-x{
+    display: none;
+}
+
+.bi-list{
+    display: none;
+}
+
+
+
+@media(min-width:601px) and (max-width:900px){
+    .main{
+        width: 100%;
+        height: 240vh;
+    }
+
+
+    .box{
+        width: 100%;
+        height: 150vh;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+    .box1{
+        height: 150%;
+    }
+
+    .box2{
+        height: 150vh;
+    }
+    .socially{
+        padding-top: 10%;
+    }
+
+    li{
+        padding-top: 5%;
+    }
+
+    .content{
+        overflow-y: auto;
+    }
+
+    
+    
+}
+
+@media(max-width:600px){
+
+
+    .main{
+        width: 100%;
+        height: 240vh;
+    }
+
+    .box{
+        width: 500%;
+        height: 150vh;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 60%;
+    }
+    .box1{
+        height: 110%;
+    }
+
+    .box2{
+        height: 165%;
+    }
+    .socially{
+        padding-top: 10%;
+    }
+
+    li{
+        padding-top: 5%;
+    }
+
+    .nav{
+        width: 500%;
+        
+    }
+
+    .bi-list{
+        display: inline-block;
+        align-content: center;
+        font-size: 5vw;
+    }
+
+    .bi-x{
+        display: inline-block;
+        position: absolute;
+        top: 4.5%;
+        left: 2%;
+        font-size: 5vw;
+       
+    }
+
+    .sidebar{
+        position: relative;
+        position: fixed;
+        left: -105%;
+        transition: all 0.5s ease-in-out 0s;
+        width: 50%;
+        height: 100%;
+    }
+
+    .showdash{
+        z-index: 1;
+        left: 0;
+        top: 0;
+    }
+
+    .socially{
+        font-size: 6vw;
+    }
+
+    .home{
+        font-size: 3vw;
+    }
+
+    li{
+        font-size: 3vw;
+    }
+
+    .list{
+        font-size: 3vw;
+    }
+
+    .list1{
+        width:48%;
+        height: 100%;
+        border: 2px black;
+    }
+
+    .explore{
+        font-size: 3vw;
+    }
+
+    .community{
+        font-size: 3vw;
+    }
+
+    .pages{
+        font-size: 3vw;
+    }
+
+    .list2{
+        width: 45%;
+        height: 100%;
+        border: 2px black;
+        padding-left: 5%;
+    }
+
+    .search{
+        font-size: 3vw;
+    }
+
+    #toggle-btn{
+        margin-left: 20%;
+    }
+
+    .f{
+        font-size: 2.3vw;
+    }
+     
+    .img{
+        margin-top: 0.8%;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;    
+    }
+
+    .nav1{
+        font-size: 3vw;
+    }
+
+    .icon{
+        font-size: 5vw; 
+    }
+
+    .create{
+        font-size: 3vw;
+    }
+
+    .name{
+        font-size: 3vw;
+
+    }
+
+    .bi-three-dots{
+        font-size: 5vw;
+    }
+
+    .top1{
+        font-size: 3vw;
+    }
+    .likes2{
+        font-size: 2.9vw;
+    }
+
+    .comments{
+        font-size: 2.9vw;
+
+    }
+
+    .share{
+        font-size: 2.9vw;
+    }
+
+    .contacts{
+        font-size: 5vw;
+    }
+
+    .text17{
+        font-size: 3vw;
+    }
+
+    .text18{
+        font-size: 3vw;
+    }
+
+    .text19{
+        font-size: 3vw;
+    }
+
+    .text20{
+        font-size: 3vw;
+    }
+
+    .text21{
+        font-size: 3vw;
+    }
+
+    .text22{
+        font-size: 3vw;
+    }
+
+    .view{
+         font-size: 3vw;
+    }
+     
+    .text23{
+        font-size: 3vw;
+    }
+
+    .text24{
+        font-size: 3vw;
+    }
+
+    .text25{
+        font-size: 3vw;
+    }
+
+    .text26{
+        font-size: 3vw;
+    }
+
+    .text27{
+        font-size: 3vw;
+    }
+
+    .bi-plus-lg{
+        font-size: 5vw;
+    }
+
+    
+}
